@@ -11,5 +11,5 @@ with open('output.log', 'r', encoding='utf-8') as f:
     n = get_notifier('discord')
     print(n.params)  
     
-    response = n.notify(webhook=WEBHOOK)
+    response = n.notify(webhook=WEBHOOK,content=log_content)
     print(response.text)  
