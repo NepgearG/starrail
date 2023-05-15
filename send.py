@@ -8,7 +8,7 @@ with open('output.log', 'r', encoding='utf-8') as f:
 
 
     #if "Message: OK" not in log_content:
-    n = get_notifier(discord)
+    n = get_notifier('discord')
     print(n.params)  
     
     response = n.notify(webhook=WEBHOOK)
