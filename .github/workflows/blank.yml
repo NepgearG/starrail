@@ -28,9 +28,9 @@ jobs:
     
       - uses: szenius/set-timezone@v1.2
         with:
-          timezoneLinux: "Asia/Singapore"
-          timezoneMacos: "Asia/Singapore"
-          timezoneWindows: "Singapore Standard Time"
+          timezoneLinux: "Asia/Japan"
+          timezoneMacos: "Asia/Japan"
+          timezoneWindows: "Japan Standard Time"
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
