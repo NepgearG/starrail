@@ -7,4 +7,4 @@
 
 ## Discord WebHook
 
-<https://gist.github.com/jagrosh/5b1761213e33fc5b54ec7f6379034a22>
+<https://github.com/y1ndan/onepush/tree/main>
