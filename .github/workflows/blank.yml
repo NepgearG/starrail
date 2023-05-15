@@ -53,6 +53,13 @@ jobs:
       - name: daily
         run: hoyo-daily-logins-helper --cookie="${{ secrets.HOYO_COOKIE }}" --starrail   &> output.log
 
+      - name: send
+        env:
+          WEBHOOK: ${{ secrets.WEBHOOK }}
+
+        run: |
+         python send.py
+         
       - name: upload
         run: |
           month=$(date +'%Y/%m')
