@@ -8,6 +8,7 @@
 
 ## Discord WebHook
 
-因为用discord比较多所以把onepush改成Discord的WebHook了。
-Env的Secret如下图
-<https://github.com/y1ndan/onepush/tree/main>
+<https://github.com/y1ndan/onepush/tree/main>  
+因为用discord比较多所以把onepush改成Discord的WebHook了。  
+必须的Secret如下图  
+![pic](https://github.com/NepgearG/starrail/blob/main/key.png)
